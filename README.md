@@ -11,22 +11,22 @@ __ALU(ARITHMETIC AND LOGIC UNIT)__ : this is capable of performing various opera
 
 __Control Uint__: This decides which instructions is to be executed in which sequence and accordingly provides the signal for there execution.
 
-I/O (INPUT/OUTPUT) : This is controlled by the control unit.
+__I/O (INPUT/OUTPUT)__ : This is controlled by the control unit.
 
-ac is the Accumulator : The work of the accumulator is to store the temporary operands or results of the ALU operations.And after that those results are stored in the memory at the defined location.
+__ac is the Accumulator__ : The work of the accumulator is to store the temporary operands or results of the ALU operations.And after that those results are stored in the memory at the defined location.
 
-ir is the Instructions Register :The work of the instruction register to store the opcode of the instructions which is currently being executed.
+__ir__ is the Instructions Register :The work of the instruction register to store the opcode of the instructions which is currently being executed.
 	
-ibr is the Instructions Buffer register : The work of the instruction buffer register is to hold the right instruction temporarily (if available) untill the left instruction is getting executed after that sends the right side instruction to the mar and ir.
+__ibr__ is the Instructions Buffer register : The work of the instruction buffer register is to hold the right instruction temporarily (if available) untill the left instruction is getting executed after that sends the right side instruction to the mar and ir.
 
-mq is the Multiplier/Quotient Register : The work of the this register is to store the LSB of the product which is performed in the ALU .
+__mq__ is the Multiplier/Quotient Register : The work of the this register is to store the LSB of the product which is performed in the ALU .
 
 
-mbr is the Memory BUffer register this is used store the word which is to be stored in the memory and also to store the data from the memory.
+__mbr__ is the Memory BUffer register this is used store the word which is to be stored in the memory and also to store the data from the memory.
 	
-mar is the Memory Adress register this stores the address from where the data is to be read or where data is to be written .
+__mar__ is the Memory Adress register this stores the address from where the data is to be read or where data is to be written .
 
-pc is the Program Counter : The work of the Program Counter is to hold the address of the next instruction.
+__pc__ is the Program Counter : The work of the Program Counter is to hold the address of the next instruction.
 
 
 ## IAS has two cycles for the program :
