@@ -1,0 +1,229 @@
+AIM:The aim of the program is to calculate the Perimeter and Area of the polygon(square or rectangle) also it will tell whether the polygon is square or rectangle.(if the length and breadth of the polygon are equal then it is square otherwise it is rectangle).and it will also give the nth term of the fibonacci sequence
+
+................................OUTPUT..................................................
+
+------------------------------PERIMETER Of Rectangle----------------------------------
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program:
+Enter your choice : 1
+
+Enter length of polygon: 4
+Enter breadth of polygon: 5  
+
+LOAD M(1)
+ADD M(0)
+STOR M(2)
+HALT
+
+LOAD M(1)
+SUB M(0)
+STOR M(7)
+HALT
+
+Answer--18
+Your polygon is rectangle!!
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 4
+Thank You!!
+-------------------------------------AREA Of Rectangle-------------------------------
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 2
+
+Enter length of polygon: 5
+Enter breadth of polygon: 6
+
+LOAD MQ, M(1)
+MUL M(0)
+STOR M(2)
+HALT
+
+LOAD M(1)
+SUB M(0)
+STOR M(7)
+HALT
+
+Answer--30
+Your polygon is rectangle!!
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 4
+Thank You!!
+
+----------------------------------------Area Of Square-----------------------------
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program:
+Enter your choice : 2
+
+Enter length of polygon: 5
+Enter breadth of polygon:
+5
+
+LOAD MQ, M(1)
+MUL M(0)
+STOR M(2)
+HALT
+
+LOAD M(1)
+SUB M(0)
+STOR M(7)
+HALT
+
+Answer--25
+Your polygon is square!!
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 4
+Thank You!!
+
+-----------------------------------Perimeter Of Square----------------------------
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program:
+Enter your choice : 1
+
+Enter length of polygon: 5
+Enter breadth of polygon: 5
+
+LOAD M(1)
+ADD M(0)
+STOR M(2)
+HALT
+
+LOAD M(1)
+SUB M(0)
+STOR M(7)
+HALT
+
+Answer--20
+Your polygon is square!!
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 3
+Thank You!!
+
+---------------------------------Nth term of FIBONACCI SEQUENCE----------------------------
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 3
+
+Enter a number GREATER THAN 7 ( 1st term of sequence is considered to be 0 ):9
+LOAD M(0)
+ADD M(1)
+STOR M(2)
+JUMP M(6, 0:19)
+LOAD M(1)
+LOAD M(1)
+STOR M(0)
+LOAD M(2)
+STOR M(1)
+LOAD M(0)
+ADD M(1)
+STOR M(2)
+JUMP M(16, 0:19)
+LOAD M(1)
+LOAD M(1)
+STOR M(0)
+LOAD M(2)
+STOR M(1)
+LOAD M(0)
+ADD M(1)
+STOR M(2)
+JUMP M(24, 0:19)
+LOAD M(1)
+LOAD M(1)
+STOR M(0)
+LOAD M(2)
+STOR M(1)
+LOAD M(0)
+ADD M(1)
+STOR M(2)
+JUMP M(32, 0:19)
+LOAD M(1)
+LOAD M(1)
+STOR M(0)
+LOAD M(2)
+STOR M(1)
+LOAD M(0)
+ADD M(1)
+STOR M(2)
+LOAD M(1)
+STOR M(0)
+STOR M(0)
+LOAD M(2)
+STOR M(1)
+LOAD M(0)
+HALT
+
+9th term of Fibonacci Sequence--21
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 4
+Thank You!!
+
+---------------------------FIBONACCI Wrong Input---------------------------------
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 3
+
+Enter a number GREATER THAN 7 ( 1st term of sequence is considered to be 0 ):5
+
+-------------Wrong Input!!----------------------
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 4
+Thank You!!
+
+--------------------------------Wrong Input----------------------------------------
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 6
+
+-------------Wrong Input!!----------------------
+
+1)Perimeter of Polygon: 
+2)Area of Polygon: 
+3)Nth term of Fibonacci Sequence: 
+4)End your Program: 
+Enter your choice : 4
+Thank You!!
+
+---------------------------------------------------------------------------------------
