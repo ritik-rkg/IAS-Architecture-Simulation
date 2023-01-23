@@ -5,28 +5,28 @@ Using the c++/cpp language i have implemented the IAS computer and some of its I
 
 Components of IAS Computer--
 
-#### MAIN MEMORY: A main memory in which both data and instruction of the program are stored.
+__MAIN MEMORY__: A main memory in which both data and instruction of the program are stored.
 
-#### ALU(ARITHMETIC AND LOGIC UNIT) : this is capable of performing various operations on binary data.
+__ALU(ARITHMETIC AND LOGIC UNIT)__ : this is capable of performing various operations on binary data.
 
-#### Control Uint: This decides which instructions is to be executed in which sequence and accordingly provides the signal for there execution.
+__Control Uint__: This decides which instructions is to be executed in which sequence and accordingly provides the signal for there execution.
 
-#### I/O (INPUT/OUTPUT) : This is controlled by the control unit.
+I/O (INPUT/OUTPUT) : This is controlled by the control unit.
 
-#### ac is the Accumulator : The work of the accumulator is to store the temporary operands or results of the ALU operations.And after that those results are stored in the memory at the defined location.
+ac is the Accumulator : The work of the accumulator is to store the temporary operands or results of the ALU operations.And after that those results are stored in the memory at the defined location.
 
-#### ir is the Instructions Register :The work of the instruction register to store the opcode of the instructions which is currently being executed.
+ir is the Instructions Register :The work of the instruction register to store the opcode of the instructions which is currently being executed.
 	
-#### ibr is the Instructions Buffer register : The work of the instruction buffer register is to hold the right instruction temporarily (if available) untill the left instruction is getting executed after that sends the right side instruction to the mar and ir.
+ibr is the Instructions Buffer register : The work of the instruction buffer register is to hold the right instruction temporarily (if available) untill the left instruction is getting executed after that sends the right side instruction to the mar and ir.
 
-#### mq is the Multiplier/Quotient Register : The work of the this register is to store the LSB of the product which is performed in the ALU .
+mq is the Multiplier/Quotient Register : The work of the this register is to store the LSB of the product which is performed in the ALU .
 
 
-#### mbr is the Memory BUffer register this is used store the word which is to be stored in the memory and also to store the data from the memory.
+mbr is the Memory BUffer register this is used store the word which is to be stored in the memory and also to store the data from the memory.
 	
-#### mar is the Memory Adress register this stores the address from where the data is to be read or where data is to be written .
+mar is the Memory Adress register this stores the address from where the data is to be read or where data is to be written .
 
-#### pc is the Program Counter : The work of the Program Counter is to hold the address of the next instruction.
+pc is the Program Counter : The work of the Program Counter is to hold the address of the next instruction.
 
 
 ## IAS has two cycles for the program :
@@ -46,7 +46,7 @@ ii-a)if you have entered the value as 3 then program will ask for a number great
 
 iii)if you want to end the program then give the choice as 4 and the program will terminate.
 
-### SOME IMPORTANT INFO ABOUT PROGRAM
+## SOME IMPORTANT INFO ABOUT PROGRAM
 
 1)In this program i have also implemented SUB M(X) i.e the SUB M(X) in the way --as when we are taking the input from the user the length and breadth of the polygon then to show whether the polygon is square or rectangle we will substract its length and breadth and if the difference is zero then it is square otherwise it is rectangle.
 
