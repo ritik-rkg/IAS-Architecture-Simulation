@@ -29,14 +29,14 @@ Components of IAS Computer--
 #### pc is the Program Counter : The work of the Program Counter is to hold the address of the next instruction.
 
 
-### IAS has two cycles for the program :
+## IAS has two cycles for the program :
 1)Fetch cycle:In this opcode of the instruction is loaded into the IR and simulatneously the address part is stored in the MAR after that we increment the program counter and value at that memory location is moved into MBR which is when executed then the next instruction which is stored in IBR is passed to the MAR and IR 
 2)Execute Cycle :In this first the data which is fetched is decoded based on the instruction opcode and binary number is converted into the assembly code .
 
 Then comes the phase where ALU comes in the picture it functions as written in the assembly code .
 
 
-### STEPS TO RUN THE PROGRAM
+## STEPS TO RUN THE PROGRAM
 
 1) Enter your choice which program you want to run--
 i-a)Then if you have entered choice as 1 or 2 then program will ask for the length and breadth of the polygon.
